@@ -55,10 +55,11 @@
       type="application/javascript"
     ></script>
     <script>
+      const host = window.location.origin;
       ReactDOM.render(
         React.createElement(GraphiQL, {
           fetcher: GraphiQL.createFetcher({
-            url: 'http://localhost:4000/graphql',
+            url: `${host}/graphql`,
           }),
           defaultEditorToolsVisibility: true,
         }),
