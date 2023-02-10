@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../src/middlewares/permissions/index.ts"],"names":[],"mappings":";;;AAAA,iDAAwC;AACxC,iCAA4D;AAE/C,QAAA,WAAW,GAAG,IAAA,uBAAM,EAC/B;IACE,QAAQ,EAAE;QACR,GAAG,EAAE,uBAAe;QACpB,MAAM,EAAE,wBAAgB;KACzB;IACD,KAAK,EAAE;QACL,GAAG,EAAE,uBAAe;KACrB;CACF,EACD;IACE,aAAa,EAAE,uBAAuB;IACtC,mBAAmB,EAAE,IAAI;CAC1B,CACF,CAAC"}
