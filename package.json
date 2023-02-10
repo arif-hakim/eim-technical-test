@@ -52,6 +52,7 @@
     "compile:seeders": "tsc ./src/seeders/*.ts",
     "db:migrate": "sequelize db:migrate",
     "db:seed": "ts-node ./src/seeders/index.ts",
+    "build": "tsc",
     "test": "jest",
     "codegen": "graphql-codegen --config codegen.yml"
   }
