@@ -9,5 +9,5 @@
       "types": ["node", "jest"],
     },
     "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"],
-    "include": ["./src/**/*.ts", "app.ts"]
+    "include": ["./src/**/*.ts", "app.ts", "./src/config/config.json"]
 }

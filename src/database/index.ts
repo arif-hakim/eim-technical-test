@@ -1,19 +1,16 @@
 import { Sequelize } from "sequelize";
 import { ServerConfig } from "../config";
 
-const config = require("../config/config.json")[ServerConfig.NODE_ENV];
+const env = ServerConfig.NODE_ENV;
+const logging = env === "test" ? false : true;
+const dbConnectionString =
+  env === "test"
+    ? ServerConfig.DB_TESTING_CONNECTION_STRING
+    : ServerConfig.DB_CONNECTION_STRING;
 
-const logging = ServerConfig.NODE_ENV === "test" ? false : true;
-
-const sequelize = new Sequelize(
-  config.database,
-  config.username,
-  config.password,
-  {
-    host: config.host,
-    dialect: config.dialect,
-    logging,
-  }
-);
+const sequelize = new Sequelize(dbConnectionString, {
+  dialect: "postgres",
+  logging,
+});
 
 export default sequelize;

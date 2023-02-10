@@ -1,1 +1,0 @@
-{"version":3,"file":"20230205131309-enable-uuidv4-extension.js","sourceRoot":"","sources":["../../../src/migrations/source/20230205131309-enable-uuidv4-extension.ts"],"names":[],"mappings":";AAEA,iBAAS;IACP,EAAE,EAAE,UAAC,cAA8B;QACjC,OAAO,cAAc,CAAC,SAAS,CAAC,KAAK,CACnC,6CAA6C,CAC9C,CAAC;IACJ,CAAC;IAED,IAAI,EAAE,UAAC,cAA8B,IAAM,CAAC;CAC7C,CAAC"}
