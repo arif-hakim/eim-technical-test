@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "sourceMap": true,
+      "outDir": "dist",
+      "strict": true,
+      "lib": ["esnext", "dom"],
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "types": ["node", "jest"],
+    },
+    "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"],
+    "include": ["./src/**/*.ts", "app.ts"]
+}
