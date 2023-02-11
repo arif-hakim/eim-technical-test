@@ -29,9 +29,6 @@ const PORT = ServerConfig.PORT;
 export let httpServer: Server;
 
 async function main() {
-  console.log({
-    NODE_ENV: ServerConfig.NODE_ENV,
-  });
   const app: Application = express();
   httpServer = http.createServer(app);
 
